@@ -1,7 +1,7 @@
 # Demografia e narrazione mediatica degli stranieri in Italia (2013–2019)
 
 **Corso:** Introduzione alla Programmazione (Modulo 2) – Progetto Python 2025/26  
-**Autori:** Filippo Meli, Simone Naponiello, Marco Ruggiero  
+**Autori:** Marco Ruggiero, Filippo Meli, Simone Naponiello  
 
 ---
 
