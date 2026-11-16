@@ -2,6 +2,7 @@
 
 **Corso:** Introduzione alla Programmazione (Modulo 2) – Progetto Python 2025/26  
 **Autori:** Marco Ruggiero, Filippo Meli, Simone Naponiello  
+**Università:** Dati, Metodi e modelli per le scienze linguistiche (UNIBO, LM-39)
 
 ---
 
