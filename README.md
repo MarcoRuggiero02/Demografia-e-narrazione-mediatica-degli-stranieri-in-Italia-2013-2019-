@@ -39,3 +39,21 @@ Per rispondere alla domanda "Quanto spazio mediatico riceve una nazionalità?", 
 Per rispondere alla domanda "Come vengono raccontati gli stranieri?", ci si è concentrati sulle tipologie editoriali:
 *   **Mappatura delle tipologie:** Sono state analizzate 9 sezioni chiave (cronaca, politica, solidarietà, cultura, tecnologia, scienze, ambiente, salute, scuola) per capire in quali contesti vengono citate le singole comunità, evidenziando gerarchie narrative (es. schiacciamento sulla cronaca per alcune nazioni, primato della solidarietà o dell'economia per altre).
 *   **Indice di Tono:** È stato creato uno *score* matematico basato sulla sezione del giornale in cui è collocata la notizia. A ogni categoria è stato assegnato un peso (da -1.0 per la cronaca, a 0 per la politica, fino a valori positivi per cultura, scienze e solidarietà). La media di questi pesi ha permesso di calcolare e tracciare su grafico l'evoluzione temporale dell'orientamento narrativo (positivo o negativo) per ogni nazionalità.
+
+## Dati e Requisiti
+
+### Dati Istat
+I dati ISTAT relativi alle cittadinanze straniere sono inclusi in questo repository all'interno della cartella `dati_progetto/data/istat/Dati_RCS/`.
+
+### Dataset Repubblica
+Il file `repubblica.csv` (che contiene gli articoli estratti dal quotidiano) non è incluso in questo repository per limiti di dimensione imposti da GitHub. 
+
+* **Come ottenerlo:** Puoi scaricarlo da [https://drive.google.com/file/d/1dh06ZwIDq3e31Bpzp3ExU9qirEetbJei/view?usp=sharing].
+* **Dove posizionarlo:** Una volta scaricato, crea manualmente la cartella `CHANGE-it` dentro `dati_progetto/data/` (Git non permette di caricare cartelle vuote) e inserisci il file al suo interno in modo che il percorso sia `dati_progetto/data/CHANGE-it/repubblica.csv`.
+* **Origine dei dati:** Il file deriva originariamente dal dataset ChangeIT (progetto EVALITA), ma è stato preventivamente filtrato e ripulito dai docenti del corso; pertanto, non corrisponde esattamente alla versione pubblica del dataset.
+
+### Esecuzione del Notebook
+Per eseguire correttamente il codice localmente:
+1. Assicurati di avere installato **Python**.
+2. Installa le librerie necessarie: `pandas`, `numpy`, `matplotlib`, `seaborn`.
+3. Clona o scarica questo repository, inserisci il file `repubblica.csv` come indicato sopra, e avvia il notebook.
