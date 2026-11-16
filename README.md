@@ -48,7 +48,7 @@ I dati ISTAT relativi alle cittadinanze straniere sono inclusi in questo reposit
 ### Dataset Repubblica
 Il file `repubblica.csv` (che contiene gli articoli estratti dal quotidiano) non è incluso in questo repository per limiti di dimensione imposti da GitHub. 
 
-* **Come ottenerlo:** Puoi scaricarlo da [https://drive.google.com/file/d/1dh06ZwIDq3e31Bpzp3ExU9qirEetbJei/view?usp=sharing].
+* **Come ottenerlo:** Puoi scaricarlo da [qui](https://drive.google.com/file/d/1dh06ZwIDq3e31Bpzp3ExU9qirEetbJei/view?usp=sharing).
 * **Dove posizionarlo:** Una volta scaricato, crea manualmente la cartella `CHANGE-it` dentro `dati_progetto/data/` (Git non permette di caricare cartelle vuote) e inserisci il file al suo interno in modo che il percorso sia `dati_progetto/data/CHANGE-it/repubblica.csv`.
 * **Origine dei dati:** Il file deriva originariamente dal dataset ChangeIT (progetto EVALITA), ma è stato preventivamente filtrato e ripulito dai docenti del corso; pertanto, non corrisponde esattamente alla versione pubblica del dataset.
 
